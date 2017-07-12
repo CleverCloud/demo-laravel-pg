@@ -1,8 +1,5 @@
 <?php
 
-use Monolog\Handler\SyslogHandler;
-use Monolog\Formatter\LineFormatter;
-
 /*
 |--------------------------------------------------------------------------
 | Create The Application
