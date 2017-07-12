@@ -41,6 +41,16 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+$app->configureMonologUsing(function($monolog) {
+    $handler = new SyslogHandler('clever_logs', 'local6');
+    $formatter = new LineFormatter("%channel%.%level_name%: %message% %extra%");
+    $handler->setFormatter($formatter);
+    $monolog->pushHandler($handler);
+
+    return $monolog;
+});
+
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application

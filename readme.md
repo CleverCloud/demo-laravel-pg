@@ -1,8 +1,10 @@
 # Laravel as Clever Cloud demo
 
+This sample project is a fork from [GitHub](https://github.com/evercode1/sample-project).
+
 ## Configuration
 
-To use a databse (like PostgreSQL), you can link your application with an addon or manually set the following environment variables will be set.
+To use a database (like PostgreSQL), you can link your application with an addon or manually set the following environment variables will be set.
 
 ```bash
 POSTGRESQL_ADDON_HOST
