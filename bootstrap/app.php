@@ -49,6 +49,8 @@ $app->configureMonologUsing(function($monolog) {
     $formatter = new LineFormatter("%channel%.%level_name%: %message% %extra%");
     $handler->setFormatter($formatter);
     $monolog->pushHandler($handler);
+
+    echo 'lolk';
 });
 
 
