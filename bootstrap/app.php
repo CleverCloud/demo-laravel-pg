@@ -62,6 +62,4 @@ $app->configureMonologUsing(function($monolog) {
 |
 */
 
-
-
 return $app;
