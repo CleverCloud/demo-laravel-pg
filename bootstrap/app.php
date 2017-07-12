@@ -47,7 +47,7 @@ $app->configureMonologUsing(function($monolog) {
     $handler->setFormatter($formatter);
     $monolog->pushHandler($handler);
 
-    return $monolog;
+    echo "yolo";
 });
 
 
