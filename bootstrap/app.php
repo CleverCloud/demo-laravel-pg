@@ -1,5 +1,8 @@
 <?php
 
+use Monolog\Handler\SyslogHandler;
+use Monolog\Formatter\LineFormatter;
+
 /*
 |--------------------------------------------------------------------------
 | Create The Application
@@ -46,8 +49,6 @@ $app->configureMonologUsing(function($monolog) {
     $formatter = new LineFormatter("%channel%.%level_name%: %message% %extra%");
     $handler->setFormatter($formatter);
     $monolog->pushHandler($handler);
-
-    echo "yolo";
 });
 
 

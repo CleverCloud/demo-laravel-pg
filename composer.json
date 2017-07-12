@@ -12,6 +12,7 @@
         "laravel/socialite": "^3.0",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.4",
+        "monolog/monolog": "^1.23",
         "pusher/pusher-php-server": "^2.6",
         "socieboy/alerts": "dev-master"
     },
