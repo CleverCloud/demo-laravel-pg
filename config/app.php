@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'Sample Project',
+    'name' => 'Laravel as Clever Cloud Demo',
 
     /*
     |--------------------------------------------------------------------------
