@@ -29,20 +29,8 @@ return [
 	| choice installed on your machine before you begin development.
 	|
 	*/
-    
+
 	'connections' => [
-		'mysql' => [
-			'driver'    => 'mysql',
-			'host'     => getenv("MYSQL_ADDON_HOST"),
-			'port'     => getenv("MYSQL_ADDON_PORT"),
-			'database' => getenv("MYSQL_ADDON_DB"),
-			'username' => getenv("MYSQL_ADDON_USER"),
-			'password' => getenv("MYSQL_ADDON_PASSWORD"),
-			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
-			'prefix'    => '',
-			'strict'    => false,
-		],
 		'pgsql' => [
 			'driver'   => 'pgsql',
 			'host'     => getenv("POSTGRESQL_ADDON_HOST"),
