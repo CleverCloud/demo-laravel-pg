@@ -23,7 +23,7 @@ CC_POST_BUILD_HOOK=php artisan migrate --force
 To enable logs retrieving on Clever console or Clever CLI, ensure that you have the following value in `./config/app.php`:
 
 ```php
-'log' => env('APP_LOG', 'syslog'),
+'log' => env('APP_LOG'),
 ```
 
 Then you can create a Clever application environment variable as following: `APP_LOG=syslog`.
